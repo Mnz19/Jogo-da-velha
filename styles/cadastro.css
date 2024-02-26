@@ -1,0 +1,16 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.campo {
+    width: 20rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
