@@ -44,7 +44,7 @@ function jogar(event) {
   if (tabuleiro[linha][coluna] === " ") {
     tabuleiro[linha][coluna] = vezDoJogador;
     event.target.innerHTML = vezDoJogador;
-    verificarEmpate();
+    console.log(tabuleiro);
     verificarVitoria();
     vezDoJogador = vezDoJogador === jogador1 ? jogador2 : jogador1;
   }
@@ -90,7 +90,7 @@ function verificarVitoria() {
   ) {
     vitoria = true;
   }
-  
+
   if (vitoria && fimDeJogo == false) {
     fimDeJogo = true;
 
@@ -118,6 +118,8 @@ function verificarVitoria() {
     }).then(() => {
       resetarJogo();
     });
+  } else {
+    verificarEmpate();
   }
 }
 
