@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/ranking.css">
     <title>Jogo da velha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,21 +14,22 @@
 
 <body>
   <div>
-    <h1 class="text-4xl">Ranking</h1>
+    <h1 class="text-6xl">Ranking</h1>
     <div class="ranking">
-        <table>
-            <thead class="color-white center">
+        <table id="tabelaRanking" class="text-white content-center">
+            <thead class="px-3 text-xl">
                 <tr>
-                    <th class="py-3 px-5">Nome</th>
-                    <th class="py-3 px-5">Vitórias</th>
-                    <th class="py-3 px-5">Derrotas</th>
+                    <th>Nome</th>
+                    <th>Vitórias</th>
                 </tr>
             </thead>
-            <tbody id="ranking">
+            <tbody>
+
             </tbody>
         </table>
     </div>
   </div>
+  <script src="./js/ranking.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="https://cdn.tailwindcss.com"></script>
 </body>

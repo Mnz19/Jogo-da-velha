@@ -12,14 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap" rel="stylesheet">
 </head>
 
-<body onload="gerarTabuleiro()">
+<body>
     <h1>Cadastro de usuario</h1>
     <form action="" method="post">
-        <input class="campo" type="text" name="nome" id="nome" placeholder="Nome">
-        <input class="campo" type="password" name="senha" id="senha" placeholder="Senha">
+        <input class="campo" type="text" name="nome" id="nome" placeholder="Nome" required>
+        <input class="campo" type="password" name="senha" id="senha" placeholder="Senha" required>
         <input type="submit" value="Cadastrar">
     </form>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/cadastro.js"></script>
 </body>
 
 </html>
