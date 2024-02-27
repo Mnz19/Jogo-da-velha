@@ -3,9 +3,10 @@
     height: 80%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
     margin-top: 3vh;
+    flex-wrap: wrap;
+    gap: 3rem;
 }
 
 form {
@@ -66,7 +67,8 @@ input[type="submit"] {
 }
 .btns-box{
     display: flex;
-    gap: 2vw;
+    flex-wrap: wrap;
+    gap: 3rem;
 }
 
 .logado-msg {
