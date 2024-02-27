@@ -1,6 +1,6 @@
 # Documentação do Software: Jogo da Velha
 # Visão Geral
-Este é um aplicativo web interativo que permite aos usuários jogar o clássico jogo da velha, com opções para jogar contra outro jogador ou contra uma inteligência artificial. Este documento detalha os componentes do software, a arquitetura e como interagir com o jogo.
+Este é um aplicativo web interativo que permite aos usuários jogar o clássico jogo da velha, com opções para jogar contra outro jogador.
 
 # Instalação
 O jogo é baseado em tecnologias web padrão, então não requer instalação especial além de um servidor web.
