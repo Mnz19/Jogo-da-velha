@@ -18,6 +18,14 @@ form {
     font-size: 20px;
     padding: 10px;
 }
+@media (max-width: 768px) {
+    .campo {
+        width: 80vw;
+    }
+    input[type="submit"] {
+        width: 85vw;
+    }
+}
 
 input[type="submit"] {
     width: 20rem;
