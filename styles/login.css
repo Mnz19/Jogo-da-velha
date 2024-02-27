@@ -72,6 +72,25 @@ input[type="submit"] {
     margin-top: 10px;
 }
 
+@media (max-width: 768px) {
+    .main-box {
+        margin-top: 10vh;
+    }
+    .campo {
+        width: 80vw;
+    }
+    input[type="submit"] {
+        width: 85vw;
+    }
+    .btn-cadastro {
+        width: 20rem;
+    }
+    .btn-jogar {
+        width: 20rem;
+    }
+    
+}
+
 @keyframes slideRight {
     from {
         transform: translateX(0);

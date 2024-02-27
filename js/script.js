@@ -98,13 +98,14 @@ function verificarVitoria() {
     
     if(vezDoJogador == jogador1){
       usuario1[Object.keys(usuario1)].vitorias++;
-      localStorage.setItem("usuario1", JSON.stringify(usuario1));
       campeao = usuario1;
     } else {
       usuario2[Object.keys(usuario2)].vitorias++;
-      localStorage.setItem("usuario2", JSON.stringify(usuario2));
       campeao = usuario2;
     }
+
+    localStorage.setItem("usuario1", JSON.stringify(usuario1));
+    localStorage.setItem("usuario2", JSON.stringify(usuario2));
 
     const paragrafoVitoria = document.createElement("p");
     paragrafoVitoria.innerHTML = `O jogador ${campeao[Object.keys(campeao)].nome} ${vezDoJogador} venceu!!`;
