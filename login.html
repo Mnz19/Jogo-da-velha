@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <title>Jogo da velha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Jogo da velha</h1>
+    <div class="main-box">    
+        <div class="login-box">
+            <form id="form1" action="" method="get">
+                <input class="campo" type="text" id="nome" name="usuario" placeholder="Nome de usuário" required>
+                <input class="campo" type="password" id="senha" name="senha" placeholder="Senha" required>
+                <input class="campo" type="submit" value="Logar">
+            </form>
+        </div>
+        <div class="login-box">
+            <form id="form2" method="get">
+                <input class="campo" type="text" id="nome" name="usuario" placeholder="Nome de usuário" required>
+                <input class="campo" type="password" id="senha" name="senha" placeholder="Senha" required>
+                <input class="campo" type="submit" value="Logar">
+            </form>
+        </div>
+        <a class="btn-cadastro" href="cadastro.html">Cadastre-se</a>
+        <input type="button" value="Reset" onclick="sair()">
+    </div>
+    <script src="js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

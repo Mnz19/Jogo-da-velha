@@ -1,0 +1,33 @@
+p {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+div {
+    width: 20rem;
+    height: 5rem;
+    border-radius: 10px;
+    font-size: 30px;
+    background-image: url("../images/quadrado.jpg");
+    background-position: center;
+    background-size: cover;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:hover {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.434), rgba(0, 0, 0, 0.434)), url("../images/quadrado.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}

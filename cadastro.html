@@ -6,24 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da velha</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/cadastro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/menu.css">
 </head>
 
 <body>
-    <h1>Jogo da Velha</h1>
-    <a href="login.html">
-        <div id="jogar">
-            <p>Jogar</p>
-        </div>
-    </a>
-    <a href="ranking.html">
-        <div id="ranking">
-            <p>Ranking</p>
-        </div>
-    </a>
+    <h1>Cadastro de usuario</h1>
+    <form action="" method="post">
+        <input class="campo" type="text" name="nome" id="nome" placeholder="Nome" required>
+        <input class="campo" type="password" name="senha" id="senha" placeholder="Senha" required>
+        <input type="submit" value="Cadastrar">
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/cadastro.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,83 @@
+.main-box{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease-in-out;
+}
+
+.campo {
+    width: 30rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    width: 20rem;
+    height: 4rem;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-cadastro{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 10px;
+    font-size:25px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.btn-jogar{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 10px;
+    font-size:25px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    display: none;
+}
+
+.logado-msg {
+    font-size: 35px;
+    color: #4CAF50;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(150%);
+        opacity: 0;
+    }
+}
