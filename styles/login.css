@@ -64,6 +64,10 @@ input[type="submit"] {
     margin-top: 10px;
     display: none;
 }
+.btns-box{
+    display: flex;
+    gap: 2vw;
+}
 
 .logado-msg {
     font-size: 35px;
@@ -78,6 +82,9 @@ input[type="submit"] {
     }
     .campo {
         width: 80vw;
+    }
+    .btns-box{
+        flex-direction: column;
     }
     input[type="submit"] {
         width: 85vw;
